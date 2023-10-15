@@ -34,14 +34,8 @@ function onLoginFormSubmit(event)
     paintGreetings();
 }
 
-function onLogoutClick()
-{
-    localStorage.removeItem(KEY_USERNAME);
-    paintGreetings();
-}
-
 loginForm.addEventListener("submit", onLoginFormSubmit);
-logoutButton.addEventListener("click", onLogoutClick);
+
 
 paintGreetings();
 

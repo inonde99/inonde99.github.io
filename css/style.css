@@ -2,7 +2,7 @@
     display: none;
 }
 
-.textinput {
+#loginInput {
     border-top: hidden;
     border-left: hidden;
     border-right: hidden;
@@ -12,7 +12,19 @@
     font-size: xx-large;
     font-weight: bold;
     text-align: center;
-    
+}
+
+#todoInput {
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: 5px solid white;
+    background: transparent;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    width: 400px;
 }
 
 ::placeholder {
@@ -24,4 +36,39 @@
     position: absolute;
     top: 50%;
     left: 40%;
+}
+
+#userPage {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+
+#clock {
+    color: white;
+    font-size: x-large;
+}
+
+#quote {
+    color: white;
+    font-size: large;
+}
+
+#weather {
+    color: white;
+    font-size: large;
+}
+
+#greetings {
+    color:white;
+    font-size: xx-large;
+
+
+}
+
+
+#todoList {
+    color:white;
+    font-size: x-large;
 }

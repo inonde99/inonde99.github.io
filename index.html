@@ -9,18 +9,18 @@
 <body>
     <form id="loginForm">
         <input type="text" placeholder="input your name." 
-            required maxlength="15" class="textinput"/>
+            required maxlength="15" id="loginInput"/>
         
     </form>
 
     <div id="userPage" class="hidden">
-        <h1></h1>
-        <button id="logoutButton">Logout</button>
+        <h1 id="greetings"></h1>
+       
         
         <h2 id="clock"></h2>
 
         <form id="todoForm">
-            <input type="text" placeholder="Write a To Do and Press Enter" required/>
+            <input type="text" placeholder="Write a To Do and Press Enter" required id="todoInput"/>
         </form>
     
         <ul id="todoList">
